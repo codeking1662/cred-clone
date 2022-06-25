@@ -11,6 +11,7 @@ body {
   box-sizing: border-box;
   background-color: var(--bg-black);
   color: var(--text);
+  overflow-x: hidden; /*adding overflow property*/
 }
 
 code {

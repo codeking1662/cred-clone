@@ -2,6 +2,7 @@
   position: relative;
   padding-top: 70px;
   padding-bottom: 70px;
+  
 }
 
 .scroll-full-screen-wrapper {
@@ -21,7 +22,7 @@
 
 .mobile-mockup {
   position: sticky;
-  top: 150px;
+  top: 100px;     /*changing value from 150px*/
   transform: translateX(30%);
   width: 350px;
   height: 600px;
@@ -29,6 +30,7 @@
   border-radius: 46px;
   padding: 16px 14px;
   max-height: 100vh;
+  
 }
 
 .mobile-mockup-screen {
@@ -36,6 +38,7 @@
   overflow: hidden;
   height: 100%;
   border-radius: inherit;
+  
 }
 
 .mobile-screen-img {
@@ -70,6 +73,7 @@
     padding-bottom: 30px;
   }
   .mobile-mockup {
+    /* top: 180px; */
     width: 272px;
     height: 480px;
   }
